@@ -60,10 +60,15 @@ In this project, I leveraged a dataset of labeled dog images provided by Udacity
 ## File Descriptions <a name="files"></a>
 
 `dog_app.ipynb` Jupyter notebook with CNN implementation.
+
 `extract_bottleneck_features.py` function to extract bottleneck features.
+
 `bottleneck_features` folder contains bottleneck features for the chose architecture.
+
 `data` folder contains human and dog images for training and validation.
+
 `haarcascades` folder contains OpenCV pre-trained face detector in xml file.
+
 `requirements` folder contains the requirements.txt file for running the code.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
