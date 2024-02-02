@@ -55,7 +55,7 @@ In this project, the aim was to develop a dog breed classification system using 
 
 In this project, I leveraged a dataset of labeled dog images provided by Udacity, consisting of various breeds. The steps to complete the project included preprocessing the data, splitting it into training, validation, and testing sets. I then designed and train a CNN model to learn the intricate features and patterns that distinguish one breed from another.
 
-
+The CNN from scratch resulted in a test accuracy of 3.4255%, meeting the project criteria. The CNN using transfer learning greatly improved the accuracy, resulting in a test accuracy of 80.6220%. More can be found in the [Medium blog post](https://medium.com/@dominikapiosik/understanding-convolutional-neural-networks-cnns-for-dog-breed-classification-0fbb98c2934b).
 
 ## File Descriptions <a name="files"></a>
 
