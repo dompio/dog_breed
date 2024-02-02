@@ -34,17 +34,18 @@
    
 * The code should run using Python 3.*.
 * Libraries used:
-  ```opencv-python
-h5py
-numpy
-scipy
-tqdm
-keras
-scikit-learn
-pillow
-ipykernel
-matplotlib  
-```
+  ```
+  opencv-python
+  h5py
+  numpy
+  scipy
+  tqdm
+  keras
+  scikit-learn
+  pillow
+  ipykernel
+  matplotlib  
+  ```
 
 ## Project Motivation<a name="motivation"></a>
 
