@@ -14,19 +14,23 @@
   git clone https://github.com/dompio/dog_breed.git
   ```
 
-2. There is an issue with tensorflow with M1.
+2. Install conda as a stand-alone version [link](https://docs.conda.io/projects/miniconda/en/latest/)
 
-Tensor devs recommend using conda. [link](https://github.com/tensorflow/tensorflow/issues/60569)
+3. Initialize conda `~/miniconda3/bin/conda init zsh`
 
-1. Please install conda as a stand-alone version [link](https://docs.conda.io/projects/miniconda/en/latest/)
-2. Initialize conda `~/miniconda3/bin/conda init zsh`
-3. Create venv `python3.8 -m venv domi_venv`
-3. Activate venv `source domi_venv/bin/activate`
-5. Specify python version for conda `conda install python=3.8`
-4. Install tensorflow-deps with conda `conda install -c apple tensorflow-deps`
-5. Install tensorflow following the instrucions for 2.12 `python -m pip install tensorflow-macos` https://developer.apple.com/metal/tensorflow-plugin/
-6. Install tensorflow-metal plug-in `python -m pip install tensorflow-metal`
-7. Install other reqirements via pip `pip install -r requirements/requirements.txt`
+4. Create venv `python3.8 -m venv domi_venv`
+
+5. Activate venv `source domi_venv/bin/activate`
+
+6. Specify python version for conda `conda install python=3.8`
+
+7. Install tensorflow-deps with conda `conda install -c apple tensorflow-deps`
+
+8. Install tensorflow following the instrucions for 2.12 `python -m pip install tensorflow-macos` https://developer.apple.com/metal/tensorflow-plugin/
+
+9. Install tensorflow-metal plug-in `python -m pip install tensorflow-metal`
+
+10. Install other reqirements via pip `pip install -r requirements/requirements.txt`
    
 * The code should run using Python 3.*.
 * Libraries used:
@@ -39,7 +43,8 @@ keras
 scikit-learn
 pillow
 ipykernel
-matplotlib  ```
+matplotlib  
+```
 
 ## Project Motivation<a name="motivation"></a>
 
